@@ -7,9 +7,6 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 
 
-nltk.download('stopwords')
-nltk.download('punkt')
-nltk.download('wordnet')
 
 
 @st.cache_resource
@@ -56,7 +53,7 @@ def transform_text(text):
 
 st.set_page_config(page_title="Spam Classifier", page_icon="📩", layout="centered")
 
-st.title("📩 Spam Classifier App")
+st.title("Spam Classifier App")
 st.write("Enter a message below and the model will classify it as **Spam** or **Not Spam**.")
 
 user_input = st.text_area("✍️ Enter your message:", height=150)
