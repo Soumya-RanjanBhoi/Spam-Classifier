@@ -22,7 +22,13 @@ It uses a **StackingClassifier** with multiple base learners and a Random Forest
   - `BernoulliNB()`  
   - `XGBClassifier(n_estimators=100)`  
   - `ExtraTreesClassifier(n_estimators=100)`  
-- **Final Estimator (Meta-learner)**: `RandomForestClassifier()`  
+- **Final Estimator (Meta-learner)**: `RandomForestClassifier()`
+
+🌐 Live Demo
+
+👉 Visit the App on Render
+
+  https://spam-classifier-zx4b.onrender.com/
 
 ---
 
