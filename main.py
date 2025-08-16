@@ -38,7 +38,7 @@ lemm = WordNetLemmatizer()
 stop_words = set(stopwords.words('english'))
 
 def transform_text(text):
-    # Lowercase
+    
     text = text.lower()
     text = remove_urls(text)
     text = remove_html_tags(text)
